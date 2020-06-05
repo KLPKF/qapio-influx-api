@@ -10,7 +10,7 @@ if sys.platform.startswith('win32'):
     INSTALL_REQUIRES.append("pywin32")
 
 setup(
-    name='qapio_influx-api',
+    name='qapio_influx_api',
     version='0.1.0',
     description='Qapio Influx API',
     long_description=open('README.rst').read(),
