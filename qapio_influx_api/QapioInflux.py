@@ -3,7 +3,7 @@ from typing import List
 from influxdb_client import InfluxDBClient, Point
 from pandas import concat, MultiIndex, Series, Timestamp, Timedelta, notnull
 
-from qapio.FluxQueryBuilder import FluxQueryBuilder
+from qapio_influx_api.FluxQueryBuilder import FluxQueryBuilder
 
 datasetCache = {}
 
