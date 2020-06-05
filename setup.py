@@ -26,7 +26,7 @@ setup(
         'Programming Language :: Python :: Implementation :: PyPy',
     ],
     keywords='api qapio',
-    packages=find_packages(include=["qapio_influx_api"]),
+    packages=find_packages(include=["qapio_influx_api*"]),
     install_requires=INSTALL_REQUIRES,
     tests_require=['pytest>=2.7.2', 'mock'],
 )
