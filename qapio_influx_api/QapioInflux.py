@@ -91,8 +91,7 @@ class DataSet:
 
 
 class InfluxSource:
-    def __init__(self, host: str, port: int, token: str, org: str,
-                 retention_policy: str):
+    def __init__(self, host: str, port: int, token: str, org: str):
         self.__org = org
         self.__influx_client = InfluxDBClient(
             url=f'{host}:{port}',
